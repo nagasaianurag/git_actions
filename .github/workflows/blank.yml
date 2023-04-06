@@ -28,6 +28,7 @@ jobs:
 #       uses: docker/build-push-action@v4.0.0
       with:
         # Always attempt to pull all referenced images
+        # added an extra line of code
         pull: true
         tags: dj2808/test:v1
 
